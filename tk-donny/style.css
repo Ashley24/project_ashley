@@ -1,0 +1,113 @@
+/*
+ Theme Name:   tk-donny
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  tk Child Theme
+ Author:       Donny Ives
+ Author URI:   http://localhost:8888/project_ashley/
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  tk-child
+*/
+
+/*@import url('../tk-donny/style.css');*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body
+{
+background: #2b3e50; 
+color: #ebebeb;
+}
+
+.wpcf7-form {background:#405060;}
+
+.wpcf7-form p{
+font-family: serif;
+font-size:medium;
+text-align: center;
+color: #ebebeb;
+}
+.wpcf7-form p input, .wpcf7-form p textarea{
+font-size:larger;
+background-color:#ebebeb;
+color:#ebebeb;
+/*border-left-color:#4283B9;
+border-top-color :#4283B9;
+border-bottom-color:#bbbbff;
+border-right-color:#bbbbff;
+padding:2px;
+}*/
+
+.form7submit  {
+display: block;
+width: 307px;
+}
+
+
+ <p align="left">[submit class:buttons_mainpage " "]</p>
+.button {
+    background-color: #df691a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+<h2>CSS Buttons</h2>
+
+
+<button>Default Button</button>
+<a href="#" class="button">Link Button</a>
+<button class="button">Button</button>
+<input type="button" class="button" value="Input Button">
+
+
+.main-navigation a {
+color:#df691a !important;
+}
+
+.main-navigation ul li:hover > a {
+background: #df691a !important;
+color: #b55614 !important;
+}
+
+/*.main-navigation ul li:hover a {
+background: #df691a;
+color: #b55614;
+}*/
+
+.sci-social-icons-horizontal li {
+float: right;
+}
+
+a{
+	color: orange;
+}
+.navbar-default {
+	background-color: #df691a;
+	border color: #df691a;
+	color: #ebebeb;
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #c65102;
+}
+
+/* mouse over link */
+a:hover {
+	color: #df691a;
+}
+
+
+
+
+
+
